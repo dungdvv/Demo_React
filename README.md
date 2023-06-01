@@ -92,3 +92,22 @@ src
 |
 |__ App.js
 ...
+
+
+## State 
+* Class CPN
+- SetState is async function
+- Khoi tao trong 1 constructor va` su dung this.state
+- Khi khai bao state,can change setState() to change 
+- Merge Property
+* React Hooks (UseState)
+
+## Lifecycle of Effect
++ Mount component when add to the screen
++ Update when get new props or state
++ Unmount : Remove khoi DOM 
+
+
+
+
+
