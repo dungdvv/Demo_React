@@ -26,7 +26,7 @@ Prop ?
 - Value of key is one 
 - Don't use index is key (problem to CRUD items)
 * Notice (
-    - In CPN co the truyen nhieu cap from dad to son ,khong nen truyen nhieu props qua nhieu` cay
+    - In CPN co the truyen nhieu cap from dad to son ,khong nen truyen nhieu props qua nhieu cay
     - PropsType to check typedata
 )
 
