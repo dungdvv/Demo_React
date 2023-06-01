@@ -1,16 +1,16 @@
-ReactDOM ?
+## ReactDOM ?
     - Library de tuong tac voi DOM, cung cap prop, methods to render CPN react to DOM
     - Update DOM when co su thay doi trong app React
     - Render CPN to DOM => ReactDOM.render(CPN, container)
     - Update 1 CPN da duoc Render
         Props, state of CPN change => reactDOM update
     - unmountComponentAtNode(container) 
-JSX ? 
+## JSX ? 
     - JS + html 
     - DOM read JSX & render 
     - React.createElement() => reactElement(type, props, children,..)
     - ReactDom just render reactElenment
-Prop ? 
+## Prop ? 
 * Is object with:
     + reactElements => atribute HTMl
     - Class, for => classname, htmlfor
@@ -30,7 +30,7 @@ Prop ?
     - PropsType to check typedata
 )
 
-Components ? 
+## Components ? 
 - Function Components va ClassComponents 
 - Gom co props (like arguments), state, render 
     + Function (){
@@ -77,3 +77,18 @@ Mix chain & expression  syntax: `string ${expres}`
 - ES6 Modules to create doc lap va phan cap 
 8. Promise & Async, Await
 
+## Folder Structer
+...
+src 
+|__ components ( shared CPN between feature)
+|  |__ Loading
+|     |__ index.jsx
+|
+|__feature
+|  |__ Todo
+|     |__ CPN of feature
+|     |__ Pages
+|     |__ Index.jsx
+|
+|__ App.js
+...

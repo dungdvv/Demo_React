@@ -1,10 +1,19 @@
-import PostItem from './postItem';
+import ColorBox from './ColorBox';
 import './App.css';
 
 function App() {
+  const name = true;
+  const age = '18'
+  const lists = ['red', 'green', 'blue']
   return (
-    <div className="App">
-      <PostItem/>
+    <div>
+      {!name && <p>Freze</p>}
+      {lists && 
+        <h1><ColorBox color = "red" />
+          {lists.map(list=>{
+            return <ul>{list}</ul>
+          })}
+        </h1>} 
     </div>
   );
 }
