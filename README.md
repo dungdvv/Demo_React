@@ -1,19 +1,26 @@
+reactDOM ?
+    - Library de tuong tac voi DOM, cung cap prop, methods to render CPN react to DOM
+    - Update DOM when co su thay doi trong app React
+    - Render CPN to DOM => ReactDOM.render(CPN, container)
+    - Update 1 CPN da duoc Render
+        Props, state of CPN change => reactDOM update
+    - unmountComponentAtNode(container) 
 JSX ? 
     - JS + html 
     - DOM read JSX & render 
     - React.createElement() => reactElement(type, props, children,..)
     - ReactDom just render reactElenment
 Prop ? 
-* Is object with 
-+ reactElements => atribute HTMl
-- Class, for => classname, htmlfor
-- Tuan theo quy tac
-+ reactComponents =>
-- Arguments 
-- Read only
-- No rule for name
-- Cant change data from props con
-+ Props key 
+* Is object with:
+    + reactElements => atribute HTMl
+    - Class, for => classname, htmlfor
+    - Tuan theo quy tac
+    + reactComponents =>
+    - Arguments 
+    - Read only
+    - No rule for name
+    - Cant change data from props con
+* Props key 
 - 1 key for 1 CPN
 - Performer
 - Value of key is one 
@@ -44,4 +51,29 @@ Update data from CPN dad to son
     + Pressentional Component
 
 - Cac khia cach khac cua 1 CPN ( lifeCycle, HOC, renderProps,..)
+
+*  Su khac biet cua ES5 va ES6
+1. VAR(ES5) , LET,CONST(ES6)
+2. Block scope 
+ES5: just Function scope 
+ES6: if for f,....
+3. Arrow function 
+()=>{}
+4. Default Parameter
+- Cho phep dinh nghia gia tri mac dinh cho cac tham so 
+5. Template literals 
+Mix chain & expression  syntax: `string ${expres}`
+6. Destructuring:
+- Trich xuat gia tri tu 1 object, array => vari
+7. Classes & modules:
+- ES6 sytax class to define obj & inheritance 
+    ex: class {
+        constructor{
+            
+        }
+    }
+    render ()
+
+- ES6 Modules to create doc lap va phan cap 
+8. Promise & Async, Await
 
